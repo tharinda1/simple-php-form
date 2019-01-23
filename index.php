@@ -7,10 +7,12 @@
     <title>Home page</title>
 </head>
 <body>
-    <form action="" method="post">
-        Name: <input type="text"> <br>
-        Email: <input type="text"><br>
-        <input type="submit">
+    <form action="welcome.php" method="post">
+        Name: <input type="text" name = "name"> <br>
+        Email: <input type="text" name = "email" ><br>
+        <input type="submit" name="submit">
     </form>
+
+    
 </body>
 </html>
